@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a496c41b-6a6b-45c2-9d6a-b621238fa1b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/LXN.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pa/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pa/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pa/GradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pa/GradeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mvn.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pa/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pa/Grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pa/GradeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pa/GradeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,10 +20,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mavenstudy$GradeTest.ic" NAME="GradeTest Coverage Results" MODIFIED="1563107486363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.pa.*</FILTER>
     </SUITE>
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
@@ -41,17 +56,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/Grade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="414">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/GradeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="207">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,20 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvn.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="230">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -99,8 +105,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/pa/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pa/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pa/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/pa/GradeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/pa/Grade.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/pa/GradeTest.java" />
       </list>
     </option>
   </component>
@@ -122,58 +128,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mavenstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pa" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563457346567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563547007477" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian TestNG" value="org.jboss.arquillian.testng.Arquillian" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -227,6 +209,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GradeTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pa" />
+      <option name="MAIN_CLASS_NAME" value="com.pa.GradeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="maven-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pa" />
+      <option name="MAIN_CLASS_NAME" value="com.pa.GradeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GradeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mvn" />
       <extension name="coverage">
@@ -244,48 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Demo1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mvn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pa" />
-      <option name="MAIN_CLASS_NAME" value="com.pa.TestNG_Demo1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNG_Demo1.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mvn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pa" />
-      <option name="MAIN_CLASS_NAME" value="com.pa.TestNG_Demo1" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GradeTest" />
-        <item itemvalue="TestNG.D:/mvn/testng.xml" />
+        <item itemvalue="TestNG.GradeTest (2)" />
         <item itemvalue="TestNG.AppTest" />
-        <item itemvalue="TestNG.TestNG_Demo1" />
-        <item itemvalue="TestNG.TestNG_Demo1.test1" />
+        <item itemvalue="TestNG.GradeTest (1)" />
+        <item itemvalue="TestNG.D:/mvn/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -305,31 +286,49 @@
       <workItem from="1563097578280" duration="5505000" />
       <workItem from="1563454886515" duration="25000" />
       <workItem from="1563457229503" duration="390000" />
+      <workItem from="1563542530129" duration="593000" />
+      <workItem from="1563543148457" duration="71000" />
+      <workItem from="1563543417593" duration="76000" />
+      <workItem from="1563543662155" duration="28000" />
+      <workItem from="1563543825558" duration="37000" />
+      <workItem from="1563545511882" duration="1496000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.07.14 at 18h 00m 45s.xml">
+    <history-entry file="GradeTest - 2019.07.19 at 22h 22m 42s.xml">
+      <configuration name="GradeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GradeTest - 2019.07.19 at 22h 24m 38s.xml">
+      <configuration name="GradeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GradeTest - 2019.07.19 at 22h 26m 10s.xml">
+      <configuration name="GradeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GradeTest - 2019.07.19 at 22h 29m 29s.xml">
+      <configuration name="GradeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.07.19 at 22h 30m 11s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GradeTest - 2019.07.14 at 20h 31m 32s.xml">
+    <history-entry file="GradeTest - 2019.07.19 at 22h 31m 58s.xml">
       <configuration name="GradeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GradeTest - 2019.07.14 at 20h 34m 58s.xml">
+    <history-entry file="GradeTest_(2) - 2019.07.19 at 22h 33m 04s.xml">
+      <configuration name="GradeTest (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GradeTest - 2019.07.19 at 22h 35m 28s.xml">
       <configuration name="GradeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GradeTest - 2019.07.14 at 20h 36m 05s.xml">
+    <history-entry file="GradeTest - 2019.07.19 at 22h 36m 08s.xml">
       <configuration name="GradeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__mvn_testng_xml - 2019.07.14 at 20h 37m 47s.xml">
-      <configuration name="D:/mvn/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GradeTest - 2019.07.18 at 21h 42m 37s.xml">
+    <history-entry file="GradeTest - 2019.07.19 at 22h 36m 26s.xml">
       <configuration name="GradeTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9909000" />
+    <option name="totallyTimeSpent" value="12210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +342,7 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.291309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,13 +351,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" x="782" y="237" width="355" height="557" id="Run" order="2" weight="0.3295711" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295711" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295711" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295711" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -447,27 +446,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/Grade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="414">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/GradeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="207">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pa/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
