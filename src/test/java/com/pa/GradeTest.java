@@ -1,9 +1,7 @@
 package com.pa;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class GradeTest {
     @BeforeClass
@@ -15,6 +13,14 @@ public class GradeTest {
     public String DescEnd(){
         System.out.println("测试结束");
         return "测试结束";
+    }
+    @BeforeMethod
+    public void SetUp(){
+        System.out.println("set-up");
+    }
+    @AfterMethod
+    public void TearDown(){
+        System.out.println("tear-down");
     }
     @Test
     public void test1(){
